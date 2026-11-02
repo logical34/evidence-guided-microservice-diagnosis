@@ -60,4 +60,6 @@ The original datasets are available from their authors:
 - RCAEval: <https://doi.org/10.1145/3701716.3715290>
 - Eadro data: <https://doi.org/10.5281/zenodo.7615394>
 
+The use and redistribution of source data and derived artifacts remain subject to the original licenses and terms; see [Data Use and Licensing](DATA_USE.md).
+
 The Eadro results use the original development/calibration/test allocation and are reported separately from the RCAEval cross-validation results.
