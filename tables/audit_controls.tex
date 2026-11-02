@@ -1,0 +1,14 @@
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrr@{}}
+\toprule
+Workflow & $J$ & $S$ & Wrong full & $C_J$ (\%) & $R_J$ (\%) & $R_A$ (\%) \\
+\midrule
+Proposed & 397 & 162 & 34 & 61.55 & 8.56 & 7.16 \\
+Joint rewrite (audit control) & 390 & 171 & 30 & 60.47 & 7.69 & 6.42 \\
+Global margin (audit control) & 390 & 170 & 30 & 60.47 & 7.69 & 6.25 \\
+Service-first (audit control) & 390 & 173 & 30 & 60.47 & 7.69 & 6.75 \\
+No LLM prior + gate & 321 & 293 & 20 & 49.77 & 6.23 & 7.98 \\
+Without relative block (matched) & 332 & 294 & 16 & 51.47 & 4.82 & 5.11 \\
+All-invariant representation & 302 & 330 & 23 & 46.82 & 7.62 & 6.49 \\
+Anomaly ranking + gate & 348 & 222 & 22 & 53.95 & 6.32 & 5.61 \\
+\bottomrule
+\end{tabular*}

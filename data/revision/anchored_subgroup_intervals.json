@@ -1,0 +1,2210 @@
+[
+  {
+    "scope": "ALL",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.5082956259426847,
+        0.7260755539839698
+      ],
+      "C_A": [
+        0.7958502304819699,
+        0.9333333333333333
+      ],
+      "R_J": [
+        0.05056037907161503,
+        0.11682306481105241
+      ],
+      "R_A": [
+        0.04121863799283154,
+        0.10256410256410256
+      ],
+      "correct_complete_per_incident": [
+        0.4690754292147481,
+        0.6567709532581164
+      ],
+      "service_top1": [
+        0.919558359621451,
+        0.971344537815126
+      ],
+      "type_accuracy": [
+        0.7831932773109244,
+        0.8939641109298532
+      ],
+      "joint_accuracy": [
+        0.7481992686393871,
+        0.8660337816214865
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "ALL",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.4661016949152542,
+        0.7833499999999998
+      ],
+      "C_A": [
+        0.975609756097561,
+        1.0
+      ],
+      "R_J": [
+        0.036585365853658534,
+        0.22917520491803264
+      ],
+      "R_A": [
+        0.024390243902439025,
+        0.13675213675213677
+      ],
+      "correct_complete_per_incident": [
+        0.3821138211382114,
+        0.72
+      ],
+      "service_top1": [
+        0.975609756097561,
+        1.0
+      ],
+      "type_accuracy": [
+        0.6693526170798899,
+        0.8833333333333333
+      ],
+      "joint_accuracy": [
+        0.6693526170798899,
+        0.8833333333333333
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "ALL",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.448,
+        0.6071565934065931
+      ],
+      "C_A": [
+        0.5564516129032258,
+        0.8455284552845529
+      ],
+      "R_J": [
+        0.0,
+        0.18840579710144928
+      ],
+      "R_A": [
+        0.0,
+        0.18421691364333154
+      ],
+      "correct_complete_per_incident": [
+        0.3981150793650794,
+        0.576271186440678
+      ],
+      "service_top1": [
+        0.8403361344537815,
+        0.9629797979797977
+      ],
+      "type_accuracy": [
+        0.64,
+        0.9173723072754367
+      ],
+      "joint_accuracy": [
+        0.5964912280701754,
+        0.8780487804878049
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "ALL",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.4576271186440678,
+        0.7750215517241377
+      ],
+      "C_A": [
+        0.96,
+        1.0
+      ],
+      "R_J": [
+        0.04477611940298507,
+        0.2028985507246377
+      ],
+      "R_A": [
+        0.025210084033613446,
+        0.13385826771653545
+      ],
+      "correct_complete_per_incident": [
+        0.4,
+        0.6814159292035398
+      ],
+      "service_top1": [
+        0.9745762711864406,
+        1.0
+      ],
+      "type_accuracy": [
+        0.7154471544715447,
+        0.8984375
+      ],
+      "joint_accuracy": [
+        0.7154471544715447,
+        0.8984375
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "ALL",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.3070033955857386,
+        0.561547619047619
+      ],
+      "C_A": [
+        0.5084745762711864,
+        0.8373983739837398
+      ],
+      "R_J": [
+        0.06776836158192093,
+        0.35714285714285715
+      ],
+      "R_A": [
+        0.0967741935483871,
+        0.2857142857142857
+      ],
+      "correct_complete_per_incident": [
+        0.2362092695730107,
+        0.44555978674790536
+      ],
+      "service_top1": [
+        0.7333333333333333,
+        0.9074074074074074
+      ],
+      "type_accuracy": [
+        0.6283130988078695,
+        0.9107142857142857
+      ],
+      "joint_accuracy": [
+        0.5163868323638287,
+        0.7768595041322314
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "ALL",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        0.616,
+        0.9145299145299145
+      ],
+      "C_A": [
+        0.8166666666666667,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.616,
+        0.9145299145299145
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.9745762711864406,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.9745762711864406,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "ALL",
+    "fault": "socket",
+    "intervals": {
+      "C_J": [
+        0.8222222222222222,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.8222222222222222,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-OB",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.6,
+        0.872
+      ],
+      "C_A": [
+        0.776,
+        0.976
+      ],
+      "R_J": [
+        0.0,
+        0.03571428571428571
+      ],
+      "R_A": [
+        0.0,
+        0.038461538461538464
+      ],
+      "correct_complete_per_incident": [
+        0.584,
+        0.872
+      ],
+      "service_top1": [
+        0.8,
+        0.984
+      ],
+      "type_accuracy": [
+        0.928,
+        0.992
+      ],
+      "joint_accuracy": [
+        0.752,
+        0.984
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-OB",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.88,
+        1.0
+      ],
+      "C_A": [
+        0.88,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.88,
+        1.0
+      ],
+      "service_top1": [
+        0.88,
+        1.0
+      ],
+      "type_accuracy": [
+        0.88,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.88,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-OB",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.6,
+        0.96
+      ],
+      "C_A": [
+        0.6,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.6,
+        0.96
+      ],
+      "service_top1": [
+        0.64,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.64,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-OB",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.08,
+        0.88
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.08,
+        0.88
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.76,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.76,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9902,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-OB",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.2,
+        0.6
+      ],
+      "C_A": [
+        0.24,
+        0.88
+      ],
+      "R_J": [
+        0.0,
+        0.3333333333333333
+      ],
+      "R_A": [
+        0.0,
+        0.375
+      ],
+      "correct_complete_per_incident": [
+        0.16,
+        0.6
+      ],
+      "service_top1": [
+        0.36,
+        0.92
+      ],
+      "type_accuracy": [
+        0.76,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.36,
+        0.92
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9995,
+      "R_A": 9995,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-OB",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        1.0,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        1.0,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-SS",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.696,
+        0.848
+      ],
+      "C_A": [
+        0.896,
+        1.0
+      ],
+      "R_J": [
+        0.020833333333333332,
+        0.21839080459770116
+      ],
+      "R_A": [
+        0.024390243902439025,
+        0.1794871794871795
+      ],
+      "correct_complete_per_incident": [
+        0.552,
+        0.808
+      ],
+      "service_top1": [
+        0.872,
+        0.992
+      ],
+      "type_accuracy": [
+        0.696,
+        0.912
+      ],
+      "joint_accuracy": [
+        0.6,
+        0.904
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-SS",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.32,
+        0.68
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.06666666666666667,
+        1.0
+      ],
+      "R_A": [
+        0.04,
+        0.44
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.6
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.08,
+        0.72
+      ],
+      "joint_accuracy": [
+        0.08,
+        0.72
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-SS",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.76,
+        1.0
+      ],
+      "C_A": [
+        0.88,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.47368421052631576
+      ],
+      "R_A": [
+        0.0,
+        0.4090909090909091
+      ],
+      "correct_complete_per_incident": [
+        0.4,
+        1.0
+      ],
+      "service_top1": [
+        0.88,
+        1.0
+      ],
+      "type_accuracy": [
+        0.4,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.4,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-SS",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.88,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.125
+      ],
+      "R_A": [
+        0.0,
+        0.12
+      ],
+      "correct_complete_per_incident": [
+        0.84,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.88,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.88,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-SS",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.32,
+        0.68
+      ],
+      "C_A": [
+        0.6,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.2857142857142857
+      ],
+      "R_A": [
+        0.0,
+        0.25
+      ],
+      "correct_complete_per_incident": [
+        0.28,
+        0.68
+      ],
+      "service_top1": [
+        0.48,
+        0.96
+      ],
+      "type_accuracy": [
+        0.84,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.44,
+        0.92
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-SS",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        0.88,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.88,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-TT",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.056,
+        0.672
+      ],
+      "C_A": [
+        0.528,
+        0.968
+      ],
+      "R_J": [
+        0.0,
+        0.4
+      ],
+      "R_A": [
+        0.0,
+        0.2818181818181818
+      ],
+      "correct_complete_per_incident": [
+        0.056,
+        0.528
+      ],
+      "service_top1": [
+        0.88,
+        0.992
+      ],
+      "type_accuracy": [
+        0.512,
+        0.912
+      ],
+      "joint_accuracy": [
+        0.496,
+        0.848
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9895,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-TT",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.08,
+        0.8
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.5
+      ],
+      "R_A": [
+        0.0,
+        0.24
+      ],
+      "correct_complete_per_incident": [
+        0.08,
+        0.68
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.64,
+        0.96
+      ],
+      "joint_accuracy": [
+        0.64,
+        0.96
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9895,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-TT",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.0,
+        0.56
+      ],
+      "C_A": [
+        0.16,
+        0.96
+      ],
+      "R_J": [
+        0.0,
+        1.0
+      ],
+      "R_A": [
+        0.0,
+        0.8
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.48
+      ],
+      "service_top1": [
+        0.72,
+        1.0
+      ],
+      "type_accuracy": [
+        0.2,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.16,
+        0.96
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9284,
+      "R_A": 9895,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-TT",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.0,
+        0.68
+      ],
+      "C_A": [
+        0.88,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        1.0
+      ],
+      "R_A": [
+        0.0,
+        0.25
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.6
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.24,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.24,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9284,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-TT",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.0,
+        0.56
+      ],
+      "C_A": [
+        0.16,
+        0.88
+      ],
+      "R_J": [
+        0.0,
+        1.0
+      ],
+      "R_A": [
+        0.0,
+        1.0
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.24
+      ],
+      "service_top1": [
+        0.64,
+        0.96
+      ],
+      "type_accuracy": [
+        0.12,
+        0.92
+      ],
+      "joint_accuracy": [
+        0.12,
+        0.68
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9284,
+      "R_A": 9895,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE1-TT",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        0.2,
+        1.0
+      ],
+      "C_A": [
+        0.4,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.2,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9895,
+      "R_A": 9996,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.3888888888888889,
+        0.9
+      ],
+      "C_A": [
+        0.7666666666666667,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0625
+      ],
+      "R_A": [
+        0.0,
+        0.05128205128205128
+      ],
+      "correct_complete_per_incident": [
+        0.37777777777777777,
+        0.8666666666666667
+      ],
+      "service_top1": [
+        0.9666666666666667,
+        1.0
+      ],
+      "type_accuracy": [
+        0.8666666666666667,
+        0.9666666666666667
+      ],
+      "joint_accuracy": [
+        0.8444444444444444,
+        0.9555555555555556
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.26666666666666666,
+        0.9333333333333333
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.5
+      ],
+      "R_A": [
+        0.0,
+        0.2
+      ],
+      "correct_complete_per_incident": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.4,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.4,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9997,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "C_A": [
+        0.2,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "service_top1": [
+        0.8,
+        1.0
+      ],
+      "type_accuracy": [
+        0.8,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.7333333333333333,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9884,
+      "R_A": 9884,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.3333333333333333,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.3333333333333333,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.6,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.6,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9997,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.26666666666666666,
+        0.9333333333333333
+      ],
+      "C_A": [
+        0.4,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.2857142857142857
+      ],
+      "R_A": [
+        0.0,
+        0.25
+      ],
+      "correct_complete_per_incident": [
+        0.2,
+        0.8
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.7333333333333333,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.7333333333333333,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9997,
+      "R_A": 9997,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        0.3333333333333333,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.3333333333333333,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9997,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-OB",
+    "fault": "socket",
+    "intervals": {
+      "C_J": [
+        0.8,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.8,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.5222222222222223,
+        0.8222222222222222
+      ],
+      "C_A": [
+        0.8777777777777778,
+        0.9888888888888889
+      ],
+      "R_J": [
+        0.0,
+        0.2835820895522388
+      ],
+      "R_A": [
+        0.0,
+        0.22625860585197835
+      ],
+      "correct_complete_per_incident": [
+        0.45555555555555555,
+        0.7666666666666667
+      ],
+      "service_top1": [
+        0.9222222222222223,
+        0.9888888888888889
+      ],
+      "type_accuracy": [
+        0.6555555555555556,
+        0.8777777777777778
+      ],
+      "joint_accuracy": [
+        0.6555555555555556,
+        0.8777777777777778
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.3333333333333333,
+        0.9333333333333333
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.3333333333333333,
+        0.9333333333333333
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.6,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.6,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9997,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.06666666666666667,
+        0.7333333333333333
+      ],
+      "C_A": [
+        0.4,
+        0.9333333333333333
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.06666666666666667,
+        0.7333333333333333
+      ],
+      "service_top1": [
+        0.5333333333333333,
+        1.0
+      ],
+      "type_accuracy": [
+        0.26666666666666666,
+        0.9333333333333333
+      ],
+      "joint_accuracy": [
+        0.26666666666666666,
+        0.9333333333333333
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9891,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.5333333333333333,
+        1.0
+      ],
+      "C_A": [
+        0.8,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.7142857142857143
+      ],
+      "R_A": [
+        0.0,
+        0.6666666666666666
+      ],
+      "correct_complete_per_incident": [
+        0.26666666666666666,
+        0.8
+      ],
+      "service_top1": [
+        0.8,
+        1.0
+      ],
+      "type_accuracy": [
+        0.26666666666666666,
+        0.8
+      ],
+      "joint_accuracy": [
+        0.26666666666666666,
+        0.8
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.3333333333333333,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.75
+      ],
+      "R_A": [
+        0.0,
+        0.6
+      ],
+      "correct_complete_per_incident": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.26666666666666666,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.26666666666666666,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9996,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        0.2,
+        0.8
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.2,
+        0.8
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.8,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.8,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9996,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-SS",
+    "fault": "socket",
+    "intervals": {
+      "C_J": [
+        1.0,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        1.0,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "ALL",
+    "intervals": {
+      "C_J": [
+        0.18888888888888888,
+        0.6666666666666666
+      ],
+      "C_A": [
+        0.6222222222222222,
+        0.8888888888888888
+      ],
+      "R_J": [
+        0.0,
+        0.14285714285714285
+      ],
+      "R_A": [
+        0.0,
+        0.11267605633802817
+      ],
+      "correct_complete_per_incident": [
+        0.17777777777777778,
+        0.6222222222222222
+      ],
+      "service_top1": [
+        0.9666666666666667,
+        1.0
+      ],
+      "type_accuracy": [
+        0.8,
+        0.9777777777777777
+      ],
+      "joint_accuracy": [
+        0.8,
+        0.9777777777777777
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "cpu",
+    "intervals": {
+      "C_J": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9895,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "delay",
+    "intervals": {
+      "C_J": [
+        0.0,
+        0.0
+      ],
+      "C_A": [
+        0.0,
+        0.8
+      ],
+      "R_J": [
+        null,
+        null
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.4666666666666667,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.4666666666666667,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 0,
+      "R_A": 9232,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "disk",
+    "intervals": {
+      "C_J": [
+        0.13333333333333333,
+        0.9333333333333333
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        1.0
+      ],
+      "R_A": [
+        0.0,
+        0.4
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.8
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        0.6,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.6,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9895,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "loss",
+    "intervals": {
+      "C_J": [
+        0.0,
+        0.26666666666666666
+      ],
+      "C_A": [
+        0.0,
+        0.7333333333333333
+      ],
+      "R_J": [
+        0.0,
+        1.0
+      ],
+      "R_A": [
+        0.0,
+        0.6666666666666666
+      ],
+      "correct_complete_per_incident": [
+        0.0,
+        0.2
+      ],
+      "service_top1": [
+        0.8,
+        1.0
+      ],
+      "type_accuracy": [
+        0.3333333333333333,
+        1.0
+      ],
+      "joint_accuracy": [
+        0.3333333333333333,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9206,
+      "R_A": 9206,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "mem",
+    "intervals": {
+      "C_J": [
+        0.2,
+        1.0
+      ],
+      "C_A": [
+        0.5333333333333333,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.2,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 9895,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  },
+  {
+    "scope": "RE2-TT",
+    "fault": "socket",
+    "intervals": {
+      "C_J": [
+        0.5333333333333333,
+        1.0
+      ],
+      "C_A": [
+        1.0,
+        1.0
+      ],
+      "R_J": [
+        0.0,
+        0.0
+      ],
+      "R_A": [
+        0.0,
+        0.0
+      ],
+      "correct_complete_per_incident": [
+        0.5333333333333333,
+        1.0
+      ],
+      "service_top1": [
+        1.0,
+        1.0
+      ],
+      "type_accuracy": [
+        1.0,
+        1.0
+      ],
+      "joint_accuracy": [
+        1.0,
+        1.0
+      ]
+    },
+    "valid_bootstrap_resamples": {
+      "C_J": 10000,
+      "C_A": 10000,
+      "R_J": 10000,
+      "R_A": 10000,
+      "correct_complete_per_incident": 10000,
+      "service_top1": 10000,
+      "type_accuracy": 10000,
+      "joint_accuracy": 10000
+    }
+  }
+]

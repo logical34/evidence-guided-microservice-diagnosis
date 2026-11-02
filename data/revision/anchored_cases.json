@@ -1,0 +1,44 @@
+[
+  {
+    "category": "Type repair",
+    "case": "re1ob_adservice_disk_1",
+    "initial_service": "adservice",
+    "initial_fault": "cpu",
+    "service": "adservice",
+    "fault": "disk",
+    "action": "joint",
+    "true_service": "adservice",
+    "true_fault": "disk",
+    "service_score": 0.9959447761103698,
+    "joint_score": 0.5100441063406436,
+    "correct": true
+  },
+  {
+    "category": "Wrong release",
+    "case": "re1ob_adservice_loss_5",
+    "initial_service": "checkoutservice",
+    "initial_fault": "delay",
+    "service": "checkoutservice",
+    "fault": "loss",
+    "action": "joint",
+    "true_service": "adservice",
+    "true_fault": "loss",
+    "service_score": 0.8157460816983023,
+    "joint_score": 0.8157460816983023,
+    "correct": false
+  },
+  {
+    "category": "Service fallback",
+    "case": "re1ob_adservice_disk_2",
+    "initial_service": "adservice",
+    "initial_fault": "cpu",
+    "service": "adservice",
+    "fault": "cpu",
+    "action": "service",
+    "true_service": "adservice",
+    "true_fault": "disk",
+    "service_score": 0.962314834135384,
+    "joint_score": 0.4803220926738658,
+    "correct": true
+  }
+]

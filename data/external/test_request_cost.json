@@ -1,0 +1,34 @@
+[
+  {
+    "model": "deepseek",
+    "cases": 45,
+    "attempts": 45,
+    "reported_tokens": 589993,
+    "median_request_seconds": 55.012,
+    "p95_request_seconds": 137.1094
+  },
+  {
+    "model": "glm53",
+    "cases": 45,
+    "attempts": 45,
+    "reported_tokens": 409522,
+    "median_request_seconds": 9.755,
+    "p95_request_seconds": 19.8036
+  },
+  {
+    "model": "kimi28",
+    "cases": 45,
+    "attempts": 45,
+    "reported_tokens": 437488,
+    "median_request_seconds": 20.699,
+    "p95_request_seconds": 55.683199999999985
+  },
+  {
+    "model": "qwen",
+    "cases": 45,
+    "attempts": 45,
+    "reported_tokens": 567164,
+    "median_request_seconds": 54.526,
+    "p95_request_seconds": 76.43299999999999
+  }
+]

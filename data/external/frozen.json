@@ -1,0 +1,102 @@
+{
+  "protocol_sha256": "5b33b59f0d25f3f6fbc3d89f9325de116a70a5f46882b883993d7a95de198810",
+  "cohort_sha256": "068c5b2ca8a4814bb5f2bd794875a09483107c0a71003daf0bd2f5b9cd7f7d57",
+  "offline_scope_sha256": "b144b530e39f7e28ca908c9606270ac48d062be7b1ab285852aa978b7cfa678c",
+  "model_training_code_sha256": "842896dc111fe6aff77bef6e163918bd1a7a75481685cce115aff76c0dc6d0da",
+  "code_sha256": "842896dc111fe6aff77bef6e163918bd1a7a75481685cce115aff76c0dc6d0da",
+  "extractor_sha256": "76f9839eccf2d6aa140830808d313ba97d7cda9f778b79db77f22aadb23d45ca",
+  "model_selection_sha256": "3c08c186875d7388c71a6eaf0e341011eb84225d59a7640fa3050e80d0e31d7a",
+  "models": {
+    "hybrid": {
+      "score": 0.75,
+      "kind": "et_1",
+      "mode": "relative",
+      "gamma": 2.0,
+      "model_path": "results\\evidence_revision_v5\\eadro_edges_v6\\hybrid.joblib",
+      "model_sha256": "c711cc53214493160e9926b43260729f148037b0a224393b6166370ab3209206"
+    },
+    "numeric": {
+      "score": 0.6666666666666666,
+      "kind": "joint",
+      "mode": "relative",
+      "gamma": 0.0,
+      "model_path": "results\\evidence_revision_v5\\eadro_edges_v6\\numeric.joblib",
+      "model_sha256": "15f9a9b60034698ac16daac1fcc185a61116f55fb2b7a4bc2fb606505a188375"
+    }
+  },
+  "gates": {
+    "hybrid_joint": {
+      "rule": {
+        "arm": "joint",
+        "service_threshold": 0.7,
+        "joint_threshold": 0.0,
+        "margin": 0.0
+      },
+      "calibration": {
+        "n": 36,
+        "J": 18,
+        "S": 0,
+        "wrong": 1,
+        "joint_wrong": 1,
+        "C_J": 0.5,
+        "coverage": 0.5,
+        "R_sel": 0.05555555555555555,
+        "R_J": 0.05555555555555555,
+        "complete_correct": 17
+      }
+    },
+    "hybrid_conditional": {
+      "rule": {
+        "arm": "conditional",
+        "service_threshold": 0.7,
+        "joint_threshold": 0.0,
+        "margin": 0.0
+      },
+      "calibration": {
+        "n": 36,
+        "J": 13,
+        "S": 0,
+        "wrong": 0,
+        "joint_wrong": 0,
+        "C_J": 0.3611111111111111,
+        "coverage": 0.3611111111111111,
+        "R_sel": 0.0,
+        "R_J": 0.0,
+        "complete_correct": 13
+      }
+    },
+    "hybrid_llm": {
+      "rule": {
+        "arm": "llm",
+        "service_threshold": 0.7,
+        "joint_threshold": 0.0,
+        "margin": 0.0
+      },
+      "calibration": {
+        "n": 36,
+        "J": 13,
+        "S": 0,
+        "wrong": 0,
+        "joint_wrong": 0,
+        "C_J": 0.3611111111111111,
+        "coverage": 0.3611111111111111,
+        "R_sel": 0.0,
+        "R_J": 0.0,
+        "complete_correct": 13
+      }
+    },
+    "numeric_joint": {
+      "rule": {
+        "arm": "joint",
+        "service_threshold": 2.0,
+        "joint_threshold": 2.0,
+        "margin": 2.0
+      },
+      "calibration": null
+    }
+  },
+  "calibration_request_manifest_sha256": "57328448c38d6c4e31bb7220414d2c321ece6a57e8be2221369ba62958a88512",
+  "controller_sha256": "f2587180240900e29cdc8768d9f4f19e7dc7c8cab4c6a74d346e5f1335b932c3",
+  "edge_extractor_sha256": "6d9e54cebd74387a9c4f582b7d276c7bd3246045c6ef4a5f4f73b8cea2fd02ce",
+  "alias_source_manifest_sha256": "eba90c4d1c6fffc5a9221a42a23d76cb0de5dc2984a6ea870c355c0a25d94342"
+}

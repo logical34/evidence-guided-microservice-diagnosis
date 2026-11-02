@@ -1,0 +1,4 @@
+source,workflow,N,Correct full diagnosis,Wrong full diagnosis,Correct service only,Wrong service only,Referred
+RCAEval,Initial diagnosis,645,365,278,0,0,2
+RCAEval,After type revision,645,522,121,0,0,2
+RCAEval,After release decision,645,363,34,156,6,86
